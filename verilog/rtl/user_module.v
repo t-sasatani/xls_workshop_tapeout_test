@@ -1,7 +1,3 @@
-/* Automatically generated from https://wokwi.com/projects/334445762078310996 */
-
-`default_nettype none
-
 module user_module(
   input wire [7:0] io_in,
   output wire [7:0] out

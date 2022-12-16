@@ -1,4 +1,3 @@
-%%writefile config.json
 {
     "DESIGN_NAME": "user_module",
     "VERILOG_FILES": "dir::user_module.v",
@@ -7,7 +6,7 @@
     "CLOCK_PORT": "clk",
     "CLOCK_NET": "ref::$CLOCK_PORT",
     "FP_SIZING": "absolute",
-    "DIE_AREA": "0 0 50 50",
-    "PL_TARGET_DENSITY": 0.30,
+    "DIE_AREA": "0 0 100 100",
+    "PL_TARGET_DENSITY": 0.54,
     "FP_PIN_ORDER_CFG": "dir::pin_order.cfg"
 }
